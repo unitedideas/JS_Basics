@@ -1,3 +1,5 @@
-let name = 'Shane Cheek'
+let city = 'Portland'
+let country = 'USA'
 
-console.log(name)
+let location = city + ', ' + country
+console.log(location)
