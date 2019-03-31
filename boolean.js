@@ -21,3 +21,5 @@ if(age <= 7){
 if (age >= 65){
     console.log('You\'re a senior' )
 }
+
+
