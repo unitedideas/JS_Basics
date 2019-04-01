@@ -18,7 +18,7 @@ let arrowSquare = (num) => {
 }
 
 let ageCheck = (age) => {
-    let returnValue = age >=21
+    let returnValue = age >= 21
     return returnValue
 }
 
@@ -33,3 +33,14 @@ arrowSquare(6)
 let userInputNum = 21
 let returnValueFromAgeCheck = ageCheck(userInputNum)
 console.log('Person over 21 = ' + returnValueFromAgeCheck)
+
+
+//challenge
+
+let convertFehrenheitToCelcius = (f) => {
+    let celcius = (f - 32) * 5 / 9
+    return celcius
+}
+
+console.log(convertFehrenheitToCelcius(32))
+console.log(convertFehrenheitToCelcius(68))
