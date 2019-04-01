@@ -8,7 +8,6 @@ let convertFehrenheitToCelcius = (f) => {
     if (celcius <= 0) {
         let isFreezing = true
         console.log(celcius)
-        
     }
     return celcius
 }
