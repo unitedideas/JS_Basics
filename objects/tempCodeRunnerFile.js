@@ -1,1 +1,1 @@
-author
+getSummary(otherBook)
