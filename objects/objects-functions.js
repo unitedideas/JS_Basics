@@ -27,8 +27,9 @@ console.log(bS.pageCountSummary, otherBSgetSummary.summary)
 let convert = function (fahrenheit) {
     return {
         fahrenheit: fahrenheit,
-        celcius: ,
-        kelvin: 
-
+        celcius: (fahrenheit - 32) * 5 / 9,
+        kelvin: (fahrenheit - 32) * 5 / 9 + 273.15
     }
 }
+console.log(convert(32).celcius, convert(32).kelvin)
+console.log(convert(32))

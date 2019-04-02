@@ -1,1 +1,0 @@
-gradeStudent(90, 100)
