@@ -2,8 +2,8 @@
 // 15/20 => You got a C (75%).
 // A 90-100, B 80-89, C 70-79, D 60-69, F 0-59
 
-let gradeStudent = function (studentScore, maxScore) {
-    let scorePercent = studentScore / maxScore * 100
+const gradeStudent = function (studentScore, maxScore) {
+    const scorePercent = studentScore / maxScore * 100
     let letterGrade
 
     if (scorePercent >= 90) {
