@@ -9,4 +9,5 @@ console.log(todo.splice(2, 1))
 console.log(todo.push('new push item'))
 console.log(todo.shift())
 
+
 console.log(todo)
