@@ -5,7 +5,12 @@
 const todo = ['walk dog', 'workout', 'study', 'send invites', 'attend meetup']
 
 console.log(`You have ${todo.length} in your todo list`)
-console.log(todo.splice(2, 1))
-console.log(todo.push('new push item'))
-console.log(todo.shift())
-console.log(todo)
+
+todo.forEach(function(item, index){
+    console.log(`${index+1}: ${item}`)
+})
+
+// same as above
+// for (let i = 0; i > todo.length; i++){
+//     console.log(`${i}. ${todo[i]}`)
+// }
