@@ -14,3 +14,4 @@ todo.forEach(function(item, index){
 // for (let i = 0; i > todo.length; i++){
 //     console.log(`${i}. ${todo[i]}`)
 // }
+
