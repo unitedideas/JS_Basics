@@ -11,6 +11,7 @@ let addExpense = function(account, amount){
     account.expences += amount
 }
 
+// reference object
 addExpense(myAccount, 2.50)
 
 console.log(myAccount)
