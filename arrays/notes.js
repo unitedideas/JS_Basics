@@ -12,6 +12,7 @@ const notes = [{},{
 
 }]
 
+
 // console.log(notes.pop())
 // notes.push('pushed note')
 
