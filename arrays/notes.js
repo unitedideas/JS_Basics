@@ -1,5 +1,5 @@
 // const notes = ['note 1', 'note 2', 'note 3']
-const notes = [{},{
+const notes = [{}, {
     title: 'My next trip',
     body: 'I would like to go to spain',
 }, {
@@ -9,7 +9,6 @@ const notes = [{},{
 }, {
     title: 'Office Mods',
     body: 'Get a new chair',
-
 }]
 
 // console.log(notes.pop())
@@ -30,13 +29,11 @@ console.log(notes.length)
 console.log(notes)
 console.log(notes.indexOf('study'))
 
-for (let i = notes.length-1; i != 0; i--){
+for (let i = notes.length - 1; i != 0; i--) {
     console.log(notes[i])
 }
-for (let count = 0; count < notes.length; count++){
+for (let count = 0; count < notes.length; count++) {
     console.log(notes[count])
 }
 
 console.log('-----------------------------------------------------')
-
-
